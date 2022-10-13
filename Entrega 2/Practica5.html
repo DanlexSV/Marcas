@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Ejemplo de etiqueta textarea</title>
+    </head>
+    <body>
+        <h2>Datos del producto</h2>
+        <form action="instertar_producto.php" method="post">
+            <fieldset>
+                <legend>Productos</legend>
+                <label for="nombre">Nombre del producto</label> <br/>
+                <input type="text" id="nombre" name="nombre" value="" /> <br/>
+                <input type="hidden" name="url_previa" value="/articulo/primero.html" />
+            </fieldset>
+            <br/>
+            <label for="descripcion">Descripci&oacuten del producto</label> <br/>
+            <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+        </form>
+    </body>
+</html>

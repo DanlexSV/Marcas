@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Ejemplo de etiqueta select</title>
+    </head>
+    <body>
+        <h3>Datos seleccionables</h3>
+        <label for="so">Sistemas operativos</label> <br/>
+        <select id="so" name="so">
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="windows">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="linux">Linux</option>
+            <option value="otros">Otros</option>
+        </select> <br/>
+        <br/>
+        <label for="so2">Sistemas operativos</label> <br/>
+        <select id="so2" name="so2" size="5">
+            <option value="windows" selected="selected">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="linux">Linux</option>
+            <option value="otros">Otros</option>
+        </select> <br/>
+        <br/>
+        <label for="so3">Sistemas operativos</label> <br/>
+        <select id="so3" name="so3" size="5" multiple="multiple">
+            <option value="windows" selected="selected">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="linux">Linux</option>
+            <option value="otros">Otros</option>
+        </select> <br/>
+        <br/>
+        <form id="formulario" method="post" action="">
+            <label for="programa">Programa seleccionado</label> <br/>
+            <select id="programa" name="programa">
+                <optgroup label="Sistemas Operativos">
+                    <option value="windows" selected="selected">Windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="linux">Linux</option>
+                    <option value="otros">Otros</option>
+                </optgroup>
+                <optgroup label="Navegadores">
+                    <option value="internet explorer" selected="selected">Internet Explorer</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="opera">Opera</option>
+                    <option value="other">Otros</option>
+                </optgroup>
+            </select>
+        </form>
+    </body>
+</html>

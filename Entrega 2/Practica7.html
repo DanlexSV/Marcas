@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Rellena tu CV</title>
+    </head>
+    <body>
+        <h2>Rellena tu CV</h2>
+        <form action="formulario_CV.php" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="provincia">Provincia</label> <br/>
+                <select id="provincia" name="provincia">
+                    <option value="" selected="selected">- selecciona -</option>
+                    <option value="albacete">Albacete</option>
+                    <option value="almeria">Almer&iacutea</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="burgos">Burgos</option>
+                    <option value="castello">Castell&oacute;</option>
+                    <option value="cordoba">C&oacuterdoba</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="otros">Otros</option>
+                </select> <br/>
+                <br/>
+                <label for="fn">Fecha de nacimiento</label> <br/>
+                <input type="text" form="fn" value="" name="dia" id="dia" maxlength="2"/> de
+                <select id="mes" name="mes">
+                    <option value="enero" selected="selected">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select> de
+                <input type="text" form="fn" value="" name="año" id="año" maxlength="4"/> <br/>
+                <br/>
+                <label for="ti">Temas de inter&eacutes</label> <br/>
+                <select id="tems int" name="tems int" size="4" multiple="multiple">
+                    <option value="administracion base de datos" selected="selected">
+                        Administraci&oacuten de bases de datos
+                    </option>
+                    <option value="analisis programacion">
+                        An&aacutelisis y programaci&oacuten
+                    </option>
+                    <option value="arquitectura">Arquitectura</option>
+                    <option value="calidad">Calidad</option>
+                    <option value="erp,crm,etc">
+                        ERP, CRM, Business Intelligence
+                    </option>
+                    <option value="other">Otros</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

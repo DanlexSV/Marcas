@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Practica 10</title>
+    </head>
+    <body>
+        <h2><center><p style="color:rgb(216, 0, 0);">Teclea mas datos</p></center></h2>
+        <form action="" method="post">
+            Teclea fechas de nacimiento:<br/>
+            <br/>
+            <label for="dia">Teclea d&iacutea de nacimiento: </label>
+            <input type="number" id="dia" name="dia" value="" maxlength="2"/>
+            <label for="mes">Selecciona mes de nacimiento: </label>
+            <select id="mes" name="mes">
+                <option value="enero" selected="selected">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+            <label for="año">Teclea a&ntilde;o de nacimiento</label>
+            <input type="number" id="año" name="año" value="" maxlength="4"/><br/>
+            <br/>
+            <label for="curso">Selecciona el curso: </label>
+            <select id="curso" name="curso">
+                <option value="primero" selected="selected">Primero SMR</option>
+                <option value="segundo">Segundo SMR</option>
+                <option value="tercero">Tercero SRM</option>
+                <option value="cuarto">Cuarto SMR</option>
+                <option value="quinto">Quinto SMR</option>
+            </select><br/>
+            <br/>
+            <fieldset>
+                Elige 3 materias optativas:
+                <input type="checkbox" id="materias" name="ingles"/>Ingles 
+                <input type="checkbox" id="materias" name="frances"/>Frances
+            </fieldset>
+        </form>
+    </body>
+</html>

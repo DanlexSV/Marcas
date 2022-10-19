@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Buzon de quejas</title>
+    </head>
+    <body>
+        <h2>Buzon de reclamos y sugerencias</h2>
+        <form action="mailto:danilibra15@hotmail.com" method="get" enctype="text/plain">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label> <br/>
+                <input type="text" id="nombre" name="nombre" value=""/> <br/>
+                <label for="correo">Correo</label> <br/>
+                <input type="text" id="correo" name="correo" value=""/> <br>
+                <label for="contacto">Numero de telefono</label> <br/>
+                <input type="number" id="numero" name="numero" maxlength="9" value=""/>
+            </fieldset>
+            <fieldset>
+                <legend>Quejas y Sugerencias</legend>
+                <label for="usoproducto">¿Has usado por mas de dos meses el producto?</label> <br/>
+                <input type="radio" name="usoproducto" value="si" checked="checked"/> Si <br/>
+                <input type="radio" name="usoproducto" value="no"/> No <br/>
+                <label for="problema">Escriba el problema que ha tenido</label> <br/>
+                <textarea id="problema" name="problema" rows="5" cols="30"></textarea> <br/>
+                <br/>
+                <label for="sugerencia">Escriba que sugerencias puede darnos</label> <br/>
+                <textarea id="sugerencia" name="sugerencia" rows="5" cols="30"></textarea> <br/>
+            </fieldset>
+            <br/>
+            <input type="submit" value="Enviar"/> <input type="reset" value="Borrar datos"/>
+        </form>
+    </body>
+</html>

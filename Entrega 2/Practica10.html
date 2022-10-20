@@ -4,9 +4,8 @@
     </head>
     <body>
         <h2><center><p style="color:rgb(216, 0, 0);">Teclea mas datos</p></center></h2>
-        <form action="" method="post">
-            Teclea fechas de nacimiento:<br/>
-            <br/>
+        <form action="" method="post" style="color: blue;">
+            <p style="color:rgb(0, 0, 0);">Teclea fechas de nacimiento:</p>
             <label for="dia">Teclea d&iacutea de nacimiento: </label>
             <input type="number" id="dia" name="dia" value="" maxlength="2"/>
             <label for="mes">Selecciona mes de nacimiento: </label>
@@ -38,9 +37,30 @@
             <br/>
             <fieldset>
                 Elige 3 materias optativas:
-                <input type="checkbox" id="materias" name="ingles"/>Ingles 
-                <input type="checkbox" id="materias" name="frances"/>Frances
+                <input type="checkbox" id="materias" name="ingles"/>
+                <label for="ingles">Ingles</label> 
+                <input type="checkbox" id="materias" name="frances"/>
+                <label for="frances">Frances</label>
+                <input type="checkbox" id="materias" name="deportes"/>
+                <label for="deportes">Deportes</label>
+                <input type="checkbox" id="materias" name="astronomia"/>
+                <label for="astronomia">Astronom&iacutea</label>
+                <input type="checkbox" id="materias" name="historia"/>
+                <label for="historia">Historia</label>
+                <input type="checkbox" id="materias" name="paginasweb"/>
+                <label for="paginasweb">Paginas web</label>
+                <input type="checkbox" id="materias" name="redes"/>
+                <label for="redes">Redes</label>
             </fieldset>
+            <fieldset>
+                Selecciona el turno:
+                <input type="radio" name="turno" value="diurno"/>Diurno
+                <input type="radio" name="turno" value="nocturno"/>Nocturno
+                <input type="radio" name="turno" value="vespertino"/>Vespertino
+            </fieldset>
+            <input type="submit" value="Enviar Datos"/>
+            <input type="reset" value="Limpiar Datos"/>
+            <input type="button" value="Cerrar Ventana"/>
         </form>
     </body>
 </html>

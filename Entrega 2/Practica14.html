@@ -5,10 +5,16 @@
     <body>
         <form action="">
             Ingrese un numero binario de ocho digitos:
-            <input type="text" id="numero" name="numero" required pattern="[01]{8}" maxlength="8"/>
+            <input type="text" id="numerobinario" name="numerobinario" required pattern="[01]{8}" maxlength="8"/>
             <br/><br/>
-            Ingrese un numero decima de ocho digitos:
-            <input type="text" id="numero" name="numero" required pattern="[0-9]{8}" maxlength="8"/>
+            Ingrese un numero decima de cinco digitos:
+            <input type="text" id="numerodecimal5" name="numerodecimal5" required pattern="[0-9]{5}" maxlength="5"/>
+            <br/><br/>
+            Ingrese un numero decima de uno a cinco digitos:
+            <input type="text" id="numerodecimal" name="numerodecimal" required pattern="[0-9]{1-5}" maxlength="5"/>
+            <br/><br/>
+            Ingrese la patente de un auto
+            <input type="text" id="patente" name="patente" required pattern="[A-Z,0-9]{6}" maxlength="6" placeholder="ABC123"/>
             <br/>
             <input type="submit" value="Enviar consulta"/>
         </form>

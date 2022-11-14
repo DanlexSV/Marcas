@@ -1,0 +1,14 @@
+h1 { color: mediumseagreen; }
+strong { color: red; }
+span.destacado { color:rgb(235, 199, 0); }
+h2 { color: blue; }
+a {color: red;}
+a em { color: cadetblue; }
+span.especial { color: rgb(109, 0, 139); }
+caption { color: blue; }
+th.especial { color: orange; }
+td { color: rgb(0, 219, 0); }
+th { color: red; }
+div { color: rgb(68, 107, 0); }
+div span#especial { color: deeppink; }
+div a { color: rgb(0, 185, 9); }

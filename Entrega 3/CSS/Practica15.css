@@ -1,0 +1,14 @@
+h2{
+    color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{font-family: 'Times New Roman', Times, serif;}
+p.a {
+    background-color: #5b5bf7;
+}
+p.b {
+    background-color: #4bff4b;
+}
+p.c {
+    background-color: #58ffff;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: #CFC;
+    font-size: 16px;
+}
+h1 {
+    color: red;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h2.red {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul.blue2 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li span.green {
+    color: green;
+}
+p.blue {
+    color: blue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+em.bn {
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

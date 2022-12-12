@@ -1,0 +1,14 @@
+.margen {
+    background-color:rgb(194, 194, 194);
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.relleno {
+    background-color:rgb(194, 194, 194);
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+}

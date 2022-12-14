@@ -1,0 +1,17 @@
+div.h2 {
+    background: #fff;
+    border: solid #c8ccd1;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+}
+div.search {
+    margin-top: -1.4em;
+    margin-left: 3em;
+    font-size: 14px;
+}
+div.link1 {
+    background: #fff;
+    border: solid #c8ccd1;
+    border-width: 1px;
+    box-shadow: 0 0rem 0.1rem rgb(0 0 0 / 15%);
+}

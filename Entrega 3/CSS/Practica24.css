@@ -1,0 +1,32 @@
+#caja1 {
+    background-image: url("../Imagen/Protos.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border: solid black;
+    margin: 5px;
+    padding: 1em;
+}
+#caja2 {
+    background-image: url("../Imagen/Protos.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    border: solid black;
+    margin: 5px;
+    padding: 1em;
+}
+#caja3 {
+    background-image: url("../Imagen/Protos.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: solid black;
+    margin: 5px;
+    padding: 1em;
+}
+#caja4 {
+    background-image: url("../Imagen/Protos.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border: solid black;
+    margin: 5px;
+    padding: 1em;
+}

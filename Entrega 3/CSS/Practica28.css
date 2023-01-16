@@ -1,0 +1,34 @@
+.bloque1 {border: solid black;}
+img {
+    float: right;
+    margin: .5em;
+}
+p { margin: .5em;}
+.bloque2 {border: solid black;}
+.caja1 {
+    background-color: blanchedalmond;
+    float: left;
+    width: 250px;
+    float: left;
+    margin: .5em;
+}
+.caja2 {
+    background-color: blanchedalmond;
+    float: left;
+    width: 250px;
+    float: left;
+    margin: .5em;
+}
+.caja3 {
+    background-color: blanchedalmond;
+    float: left;
+    width: 250px;
+    float: left;
+    margin: .5em;
+}
+.caja4 {
+    background-color: blanchedalmond;
+    width: 250px;
+    margin: .5em;
+    clear: both;
+}

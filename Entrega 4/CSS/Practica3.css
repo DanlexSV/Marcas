@@ -1,0 +1,11 @@
+#especial {font-variant: small-caps;}
+#especial em {
+    font-weight: bold;
+    font-style: normal;
+}
+#especial strong {
+    font-weight: normal;
+    font-style: italic;
+    background-color: #FFFF66;
+    padding: 2px;
+}

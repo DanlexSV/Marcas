@@ -1,6 +1,33 @@
-#cabsuperior {
-    border: solid black;
+div #cabsuperior {
+    flex: auto;
+    border: 1px solid black;
+    padding: 1em;
 }
-#cabinferior {
+.izquierda {float: left;}
+.derecha {
+    float: right;
+    padding-top: 1em;
+}
+div .clear {clear: both;}
+div #cabinferior {
+    border: 1px solid black;
+    padding: 1em;
+}
+div #cuerpo {
     border: solid black;
+    flex: auto;
+    margin-top: 0.5em;
+}
+div #menu {
+    border: 1px solid black;
+    float: left;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    width: 250px;
+}
+div #central {
+    border: 1px solid black;
+    float: right;
+    padding: 0.5em;
+    width:fit-content ;
 }

@@ -25,6 +25,7 @@ div #menu {
     margin-bottom: 0.5em;
     width: 250px;
     margin-right: 0.5em;
+    background-image: url(fondo_menu.gif);
 }
 div #central {
     display: flex;
@@ -48,6 +49,7 @@ div #pie {
     flex: auto;
     border-bottom-color: #C5C5C5;
     border-bottom-style: solid;
+    background-color: #F8F8F8;
 }
 div #enlaces {float: left;}
 div #copy {float: right;}
@@ -57,8 +59,17 @@ img {
 div #noticias {
     border: 1px solid #C5C5C5;
     margin-bottom: 0.5em;
+    background-color: #F8F8F8;
 }
 div #publicidad {
     border-style: dashed;
     border-color: #CC6600;
+    background-color: #FFF6CD;
+}
+#secundario h2 {
+    background-color: #DB905C;
+    padding: 0.2em;
+}
+#cabsuperior h2 {
+    background-image: url(logo.gif);
 }

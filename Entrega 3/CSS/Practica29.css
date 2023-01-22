@@ -1,5 +1,16 @@
-div {
+#caja {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #CCC;
     background-color: #E0E0E0;
     padding: .5em;
+    font-size: 2em;
 }
+div .bloque1 {
+    float: left;
+}
+div .bloque2 {
+    float: right;
+}
+div .clear {clear: both;}

@@ -1,0 +1,110 @@
+div #cabsuperior {
+    flex: auto;
+    padding: 1em;
+}
+.izquierda {float: left;}
+.derecha {
+    float: right;
+    padding-top: 1em;
+}
+div #clear {clear: both;}
+div #cabinferior {
+    padding: 1em;
+    border-bottom: 1px solid #004C99;
+    background-color: #004C99;
+}
+div #cuerpo {
+    display: flex;
+    flex: auto;
+    margin-top: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #C5C5C5;
+}
+div #menu {
+    float: left;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    width: 250px;
+    margin-right: 0.5em;
+    background-image: url(fondo_menu.gif);
+    margin-right: 1em;
+    font-size: 0.9em;
+}
+#menu a {font-size: 1.3em;}
+div #central {
+    display: flex;
+    float: right;
+    width:fit-content;
+    height: min-content;
+}
+div #principal {
+    float: left;
+    margin-right: 1.5em;
+}
+div #secundario {
+    float: right;
+    width: 250px;
+    height: min-content;
+    border-style: dashed;
+    border-color: #CC6600;
+}
+div #pie {
+    margin-top: 0.5em;
+    flex: auto;
+    border-bottom-color: #C5C5C5;
+    border-bottom-style: solid;
+    background-color: #F8F8F8;
+}
+div #enlaces {float: left;}
+div #copy {float: right;}
+img {
+    float: left;
+}
+div #noticias {
+    border: 1px solid #C5C5C5;
+    margin-bottom: 0.5em;
+    background-color: #ebebeb;
+    text-align: justify;
+    color: #999;
+}
+div #publicidad {
+    border-style: dashed;
+    border-color: #CC6600;
+    background-color: #FFF6CD;
+    color: #555;
+}
+#secundario h2 {
+    background-color: #DB905C;
+    padding: 0.2em;
+}
+#cabsuperior h2 {
+    background-image: url(logo.gif);
+}
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+#principal h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+}
+#noticias h3 {color: #003366;}
+#publicidad a {color: #CC6600;}
+#principal a {color: #CC6600;}
+#principal p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+#secundario h2 {color: white;}
+#cabinferior a {
+    color: white;
+    line-height: 1.4em;
+}
+#principal img {
+    margin: 0.3em;
+    margin-right: 1em;
+}

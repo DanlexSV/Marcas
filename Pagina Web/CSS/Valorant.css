@@ -42,7 +42,7 @@
     padding: 0.5rem 1rem;
     color: #ff005a;
     text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out .15s ease-in-out .15s ease-in-out;
 }
 .px-2 {
     padding-right: 0.5rem;
@@ -50,17 +50,17 @@
 }
 .text-secundary {color: #dc121f;}
 .d-grid {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: .5fr 2fr 1fr;
     display: grid;
 }
 .gap-3 {
     gap: 3rem;
 }
 .bg-light {
-    background-color: #f8f9fa;
+    background-color: #0e1923;
 }
 .border {
-    border: 1px solid #dee2e6;
+    border: 1px solid #0f1423;
 }
 .rounded-3 {
     border-radius: 0.3rem;
@@ -73,4 +73,15 @@ header {
 }
 .flex {
     flex: auto;
+}
+.text {
+    padding: .5em;
+    font-family: Regular, arial, georgia, sans-serif;
+}
+.text strong {
+    font-size: 1.5em;
+}
+
+body {
+    background-image: url(https://my4kwallpapers.com/wp-content/uploads/2021/12/Valorant-Mobile-Wallpaper.jpg);
 }

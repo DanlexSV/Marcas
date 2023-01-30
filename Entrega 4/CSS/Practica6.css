@@ -1,1 +1,30 @@
-p::first-line {}
+p::first-line {
+    text-transform: uppercase;
+}
+.first{
+    border: solid black;
+    margin-bottom: 0.6em;
+}
+.second {
+    border: solid midnightblue;
+    width: 70%;
+    margin-bottom: 0.6em;
+}
+.third {
+    border: solid darkred;
+    width: 35%;
+}
+.normal {
+    border: solid rebeccapurple;
+    margin-bottom: 0.6em;
+}
+.normal p::first-letter {font-size: 2em;}
+.avanzado p::first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: .9em;
+    float: left;
+    margin: .1em;
+}
+.avanzado {border: solid mediumspringgreen;}
+.avanzado p::first-line {font-weight: bold;}

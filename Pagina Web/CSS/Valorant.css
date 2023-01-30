@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'VALORANTLT';
+    src:  url(../FONTS/561f38b1f4570de0fb8a39d691ab058c.woff2) format('woff2'), url(../FONTS/561f38b1f4570de0fb8a39d691ab058c.woff) format('woff');
+}
 .bg-dark {background-color: rgba(10, 1, 56, 0.267)}
 .text-white {color: #f9f9f9;}
 .p-3 {padding: 1rem;}
+.val {margin-top: .5em;}
 .container {
     width: 100%;
     padding-left: 75rem;
@@ -56,10 +61,10 @@
 .gap-3 {
     gap: 3rem;
 }
-.bg-light {
+.bg-valorant {
     background-color: #0e1923;
 }
-.border {
+.border-valo {
     border: 1px solid #0f1423;
 }
 .rounded-3 {
@@ -69,16 +74,19 @@ header {
     margin-bottom: 1em;
 }
 .letter {
-    font-family: Regular, arial, georgia, sans-serif;
+    font-family: 'VALORANTLT', sans-serif;
+    font-size: 1.5em;
 }
 .flex {
     flex: auto;
 }
 .text {
     padding: .5em;
-    font-family: Regular, arial, georgia, sans-serif;
+    font-family: 'DINNextW1G-Bold', arial, georgia, sans-serif;
+    color: #f9f9f9;
 }
 .text strong {
+    font-family: 'VALORANT', sans-serif;
     font-size: 1.5em;
 }
 

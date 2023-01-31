@@ -1,0 +1,5 @@
+.letragrande ::first-letter {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+}

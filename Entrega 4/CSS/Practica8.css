@@ -1,0 +1,11 @@
+.enlaces:link {color: #CC0000;}
+.enlaces:hover {
+    background-color: #CC0000;
+    color: #FFF;
+}
+.enlaces:visited {color: #CCC;}
+.enlaces {padding: .5em;}
+.marg {
+    margin-top: 1.5em;
+    margin-left: .5em;
+}

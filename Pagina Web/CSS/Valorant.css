@@ -81,7 +81,7 @@ header {
     flex: auto;
 }
 .text {
-    padding: .5em;
+    padding: 1em;
     font-family: 'DINNextW1G-Bold', arial, georgia, sans-serif;
     color: #f9f9f9;
 }
@@ -92,4 +92,48 @@ header {
 
 body {
     background-image: url(https://my4kwallpapers.com/wp-content/uploads/2021/12/Valorant-Mobile-Wallpaper.jpg);
+}
+#pie-pag {
+    margin-top: 1em;
+    background-color: #111;
+    padding: 0px 0px 48px 0px;
+    border-top: 2px solid #343434;
+}
+.copyright{
+    margin: 1em auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+}
+.decoration {
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bloque-image .image-cpy {
+    background-color: #292929;
+    max-width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.decoration .o6-G7b-VAzGZ_yBQ9iIXE {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+    margin: 4px 0;
+    max-width: 100%;
+}
+.bloque-image {
+    box-sizing: border-box;
 }

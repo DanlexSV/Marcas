@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+}
+.MenuH {margin-top: .5em;}
+.MenuH a{
+    background-color: rgb(232, 232, 232);
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    width: 5%;
+    text-align: center;
+    padding: 10px;
+}
+.MenuH a:hover {
+    background-color: rgb(71, 138, 141);
+    color: orangered;
+}

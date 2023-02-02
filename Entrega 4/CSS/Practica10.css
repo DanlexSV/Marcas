@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+}
+.MenuV {
+    float: left;
+}
+.MenuV a{
+    background-color: rgb(232, 232, 232);
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.MenuV a:hover {
+    background-color: rgb(71, 138, 141);
+    color: orangered;
+}

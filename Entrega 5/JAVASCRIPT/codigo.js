@@ -1,0 +1,2 @@
+alert("Hola Mundo!"); //muestra un primer mensaje por pantalla el cual muestra el texto dentro del parentensís
+alert("Soy el primer script"); //volvemos a usar el comando alert para mostrar un segundo mensaje por pantalla

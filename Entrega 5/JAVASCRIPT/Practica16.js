@@ -1,19 +1,16 @@
-var valor = parseInt(prompt("Ingrese un valor comprendido entre el 1 y 5:", ''));
+var Color = prompt("Escribe ROJO, VERDE ó AZUL:");
+Color = Color.toUpperCase();
 
-switch (valor) {
-    case 1:
-        document.write('uno');
+switch (Color) {
+    case "ROJO":
+        document.bgColor = '#FF0000';
         break;
-    case 2:
-        document.write('');
+    case "VERDE":
+        document.bgColor = "#OOFFOO";
         break;
-    case 3:
-        document.write('');
+    case "AZUL":
+        document.bgColor = "#0000FF";
         break;
-    case 4:
-        document.write('');
-        break;
-    case 5:
-        document.write('');
-        break;
+    default:
+        alert ("Opcion no valida!") 
 }

@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f2f2f2;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin-right: 10px;
+}
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.menu a:hover {
+    background-color: #ddd;
+}

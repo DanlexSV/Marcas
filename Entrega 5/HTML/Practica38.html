@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="../JAVASCRIPT/Practica38.js"></script>
+</head>
+
+<body>
+	<h1>Calculadora de pizzas</h1>
+	<form>
+		<label for="pizza">Selecciona una pizza:</label>
+		<select id="pizza">
+			<option value="4.00">Queso ($4)</option>
+			<option value="6.00">Jamón y queso ($6)</option>
+			<option value="10.00">Especial ($10)</option>
+		</select> <br><br>
+		<label for="cantidad">Cantidad:</label>
+		<input type="text" id="cantidad" value="1"> <br><br>
+		<button type="button" onclick="calcularImporte()">Calcular importe</button> <br><br>
+		<label for="importe">Importe a pagar:</label>
+		<input type="text" id="importe" readonly>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica37</title>
+    <script src="../JAVASCRIPT/Practica37.js"></script>
+</head>
+
+<body>
+    <h1>Examen Múltiple Choice</h1>
+    <form>
+        <div>
+            <h3>Pregunta 1:</h3>
+            <p>¿Cuál es la capital de España?</p>
+            <select id="respuesta1">
+                <option value="">Selecciona una respuesta</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Valencia">Valencia</option>
+            </select>
+        </div>
+        <div>
+            <h3>Pregunta 2:</h3>
+            <p>¿Cuál es el río más largo del mundo?</p>
+            <select id="respuesta2">
+                <option value="">Selecciona una respuesta</option>
+                <option value="Nilo">Nilo</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Yangtze">Yangtze</option>
+                <option value="Misisipi">Misisipi</option>
+            </select>
+        </div>
+        <div>
+            <h3>Pregunta 3:</h3>
+            <p>¿Quién escribió "Don Quijote de la Mancha"?</p>
+            <select id="respuesta3">
+                <option value="">Selecciona una respuesta</option>
+                <option value="Miguel de Cervantes">Miguel de Cervantes</option>
+                <option value="Gabriel García Márquez">Gabriel García Márquez</option>
+                <option value="Jorge Luis Borges">Jorge Luis Borges</option>
+                <option value="Mario Vargas Llosa">Mario Vargas Llosa</option>
+            </select>
+        </div>
+        <div>
+            <h3>Pregunta 4:</h3>
+            <p>¿Quién pintó "La Gioconda"?</p>
+            <select id="respuesta4">
+			    <option value="">Selecciona una respuesta</option>
+			    <option value=" Pablo Picasso">Pablo Picasso</option>
+                <option value="Leonardo da Vinci">Leonardo da Vinci</option>
+                <option value="Salvador Dalí">Salvador Dalí</option>
+                <option value="Vincent van Gog">Vincent van Gogh</option>
+            </select>
+        </div>
+        <br><br>
+        <button type="button" onclick="calcularRespuestas()">Calcular resultados</button>
+        <br>
+        <h2>Resultados</h2>
+        <p>Respuestas correctas: </p>
+        <input type="text" id="correctas" readonly>
+        <p>Respuestas incorrectas: </p>
+        <input type="text" id="incorrectas" readonly>
+    </form>
+</body>
+
+</html>

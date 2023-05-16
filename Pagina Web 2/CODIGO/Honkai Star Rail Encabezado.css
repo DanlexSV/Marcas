@@ -49,5 +49,11 @@ img {vertical-align: middle;}
 .top-inferior {
   background-color: #64305f;
   height: 50px;
-  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
+

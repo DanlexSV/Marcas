@@ -1,18 +1,41 @@
-.top-nav {
-  position: fixed;
-  z-index: 9999;
+a {
+  text-decoration: none;
+  color: #dbddef;
+  background-color: transparent;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.header {
   margin-bottom: 30px;
+  z-index: 9999;
   border-bottom: 1px solid #24285a;
 }
 
-.top-superior {
-  background-color: #64305f;
+.header .toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40%;
+  background: #0b1029;
+}
+
+.header .toolbar-active,
+.header .nav {
+  background: #64305f;
+}
+
+.header .toolbar-active {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-.page-oficial {
+.header .toolbar-active .brand {
   display: flex;
   align-items: center;
   height: 100%;
@@ -20,40 +43,70 @@
   padding: 0 10px 0 15px;
 }
 
-.toolbar {
+.header .toolbar-active .toolbar-nav-item {
   color: #dbddef;
   font-size: 14px;
   font-weight: 500;
   padding: 0 15px 0 10px;
   margin: 0;
+}
+
+.header .toolbar .toolbar-nav-item {
   display: flex;
   align-items: center;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.image-icon {
-  opacity: 1;
+.header .toolbar .toolbar-nav-item .toolbar-game {
   width: 24px;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-img {vertical-align: middle;}
+.toolbar-active {
+  justify-content: space-between;
+}
 
+.right-section {
+  margin-left: auto;
+}
 
-.top-inferior {
+.register-button {
   background-color: #64305f;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #dbddef;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-button:hover {
+  background-color: #864180;
+}
+
+.nav {
   height: 50px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
 }
 
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-link:hover {
+  background-color: #864180;
+}

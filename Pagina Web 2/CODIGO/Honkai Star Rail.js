@@ -5,6 +5,8 @@ function showLoginBox() {
     const loginButton = loginBox.querySelector('a');
     loginButton.addEventListener('click', function (event) {
         event.preventDefault();
+        const message = "Bienvenido de nuevo!";
+        alert(message);
         loginBox.classList.remove('show');
     });
 }

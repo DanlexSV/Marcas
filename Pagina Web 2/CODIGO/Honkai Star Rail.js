@@ -37,3 +37,18 @@ function resetForm(registerBox) {
     const form = registerBox.querySelector('form');
     form.reset();
 }
+
+function showMoraxCost() {
+    const levelSelect = document.getElementById('level-select');
+    const resultTextarea = document.getElementById('result-textarea');
+  
+    const selectedLevel = parseInt(levelSelect.value);
+    const moraxCost = selectedLevel * 13080;
+    resultTextarea.value = `Subir el personaje al nvl ${selectedLevel} cuesta un total de ${moraxCost} morax`;
+  }
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    const levelSelect = document.getElementById('level-select');
+    levelSelect.addEventListener('change', showMoraxCost);
+  });
+  
